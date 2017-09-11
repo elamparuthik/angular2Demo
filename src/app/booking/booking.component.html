@@ -1,0 +1,171 @@
+<div class="col-md-10 banner-right">
+  <!--start-booking-->
+  <div class="booking">
+      <div class="booking-main">
+        <div class="booking-top">
+          <div class="col-md-5 booking-top-left">
+            <h4>Book Lodging Now</h4>
+            <div class="booking-form">
+              <div class="b_room">
+                <div class="booking_room">
+                  <div class="reservation">
+                    <ul>		
+                       <li  class="span1_of_1 left">
+                        <div class="book-text">
+                          <h5>Check in:</h5>
+                         </div>
+                         <div class="book_date">
+                           <form>
+                            <input type="text" [(ngModel)]="textfld" #box (keypress)="eventHandler(box.value)">
+                            {{textfld}}
+                          </form>
+                           <!--form>
+                           <input class="date" id="datepicker" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required=>
+                           </form-->
+                         </div>
+                         <div class="clearfix"></div>					
+                       </li>
+                       <li  class="span1_of_1 left">
+                         <div class="book-text">
+                          <h5>Check out:</h5>
+                         </div>
+                         <div class="book_date">
+                         <!--form>
+                          <input class="date" id="datepicker1" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required=>
+                         </form-->
+                         </div>
+                         <div class="clearfix"></div>		
+                       </li>
+                        <li class="span1_of_1">
+                         <div class="book-text">
+                          <h5>Adult(13+)</h5>
+                         </div>
+                         <!--start section_room-->
+                         <!--div class="book_date">
+                            <select id="country" onchange="change_country(this.value)" class="frm-field required">
+                              <option value="null"></option>
+                              <option value="null">1</option>         
+                              <option value="AX">2</option>
+                              <option value="AX">3</option>
+                              <option value="AX">4</option>
+                            </select>
+                         </div-->
+                         <div class="clearfix"></div>	
+                       </li>
+                       <li class="span1_of_1">
+                         <div class="book-text">
+                          <h5>Youth(7-15)</h5>
+                         </div>
+                         <!--start section_room-->
+                         <!--div class="book_date">
+                            <select id="country" onchange="change_country(this.value)" class="frm-field required">
+                              <option value="null"></option>
+                              <option value="null">1</option>         
+                              <option value="AX">2</option>
+                              <option value="AX">3</option>
+                              <option value="AX">4</option>
+                            </select>
+                         </div-->
+                         <div class="clearfix"></div>	
+                       </li>
+                       <li class="span1_of_1">
+                         <div class="book-text">
+                          <h5>Child(0-6)</h5>
+                         </div>
+                         <!--start section_room-->
+                         <!--div class="book_date">
+                            <select id="country" onchange="change_country(this.value)" class="frm-field required">
+                              <option value="null"></option>
+                              <option value="null">1</option>         
+                              <option value="AX">2</option>
+                              <option value="AX">3</option>
+                              <option value="AX">4</option>
+                            </select>
+                         </div-->
+                         <div class="clearfix"></div>	
+                       </li>
+                       <li  class="span1_of_1 left">
+                          <div class="book-text">
+                          <h5>Group code</h5>
+                         </div>
+                         <div class="book_date">
+                           <!--form>
+                            <input type="text" placeholder="" required="">
+                           </form-->
+                         </div>
+                         <div class="clearfix"></div>						
+                       </li>
+                       <div class="clearfix"></div>
+                    </ul>
+                   </div>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+              <!---->
+              
+            </div>
+          </div>
+          <div class="col-md-7 booking-top-right">
+            <h4>Accommodation and Lodging</h4>
+            <div class="book-bottom">
+              <div class="col-md-5 book-bottom-left">
+                <a href="#"><img class="img-responsive" src="images/b1.jpg" alt=""></a>
+              </div>
+              <div class="col-md-7 book-bottom-right">
+                <h6><a href="#">Cras id tempor felis. Ut porta et nisi sed pharetra Quisque.</a></h6>
+                <p>Fusce porta, massa sed ullamcorper lacinia, eros justo aliquam ligula, id luctus lectus justo et ipsum. Proin fringilla erat lacus.</p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="book-bottom-one">
+              <div class="col-md-5 book-bottom-left">
+                <a href="#"><img class="img-responsive" src="images/b2.jpg" alt=""></a>
+              </div>
+              <div class="col-md-7 book-bottom-right">
+                <h6><a href="#">Cras id tempor felis. Ut porta et nisi sed pharetra Quisque.</a></h6>
+                <p>Fusce porta, massa sed ullamcorper lacinia, eros justo aliquam ligula, id luctus lectus justo et ipsum. Proin fringilla erat lacus.</p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="b-bottom-grids">
+          <div class="col-md-4 b-bottom-right">
+                <h4>Discounted Lessons</h4>
+                <a href="#"><img class="img-responsive" src="images/b3.jpg" alt=""></a>
+                <h5><a href="#">Aenean porttitor libero orci, vitae volutpat lorem porta a.</a></h5>
+                <p>Nam aliquet nunc ut felis scelerisque, sit amet elementum quam dapibus. Curabitur ornare mauris purus, in porttitor sapien fringilla sit amet.</p>
+          </div>
+          <div class="col-md-4 b-bottom-left">
+                <h4>Why Us?</h4>
+                <h5><a href="#">Vestibulum non lobortis quam ut tincidunt neque eu </a></h5>
+                <p>Integer leo nisl, luctus vel tellus ac, ultrices tempor nibh. Duis pellentesque tellus volutpat volutpat dapibus. Praesent feugiat, lorem eu aliquam finibus.</p>
+                <ul class="popular a">
+                  <li><a href="#"><i> </i>Contrary to popular</a></li>
+                  <li><a href="#"><i> </i>There are many </a></li>
+                  <li><a href="#"><i> </i>Lorem Ipsum is simply</a></li>
+                </ul>
+          </div>
+          <div class="col-md-4 properties">
+            <h6>Properties</h6>
+              <ul class="popular">
+                    <li><a href="#"><i> </i>Contrary to popular</a></li>
+                    <li><a href="#"><i> </i>There are many </a></li>
+                    <li><a href="#"><i> </i>Lorem Ipsum is simply</a></li>
+                    <li><a href="#"><i> </i>Sed ut perspiciatis </a></li>
+                    <li><a href="#"><i> </i>Nemo enim ipsam </a></li>	
+              </ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>		
+      </div>
+  
+  </div>
+  <!--end-booking-->
+  
+  <div class="footer">
+    <p>Copyright &copy; 2015 Promenade. Design by <a href="http://w3layouts.com/"> W3layouts</a></p>
+  </div>
+</div>
