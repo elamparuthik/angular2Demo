@@ -8,7 +8,9 @@
     "mapRoot": "./",
     "module": "es6",
     "moduleResolution": "node",
+    "noImplicitAny": true,
     "outDir": "../dist/out-tsc",
+    "suppressImplicitAnyIndexErrors": true,
     "sourceMap": true,
     "target": "es5",
     "typeRoots": [

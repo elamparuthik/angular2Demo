@@ -9,16 +9,8 @@ import { Component, OnInit } from '@angular/core';
 
 export class BookingComponent implements OnInit {
 
-  	//constructor(private http:Http) {}
-
   	ngOnInit(): void {
-     //alert("hello booking");
      
     }
-
-    eventHandler(event : String) {
-      console.log(event);
-   } 
-
    
 }
